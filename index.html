@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gerald Gunda | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header / Hero -->
+  <header class="hero">
+    <div class="container hero-wrap">
+      <img class="avatar" src="assets/profile-placeholder.png" alt="Gerald Gunda profile" />
+      <div>
+        <h1 class="title">Gerald Gunda</h1>
+        <p class="subtitle">Web Developer · Freelancer · Creative Builder</p>
+        <nav class="pill-nav">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </div>
+    <svg class="curve" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0,0 C240,100 480,0 720,60 C960,120 1200,20 1440,80 L1440,120 L0,120 Z"></path>
+    </svg>
+  </header>
+
+  <main class="container">
+    <!-- About -->
+    <section id="about" class="card">
+      <h2>About Me</h2>
+      <p>
+        Hi! I'm <strong>Gerald Gunda</strong>, 38 years old — a passionate freelancer who loves building websites,
+        experimenting with AI tools, and creating cool digital projects. I focus on clean, fast, and human-friendly
+        web experiences.
+      </p>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="card">
+      <h2>Skills</h2>
+      <div class="badge-list" data-animate>
+        <span class="badge">HTML5</span>
+        <span class="badge">CSS3</span>
+        <span class="badge">JavaScript</span>
+        <span class="badge">Responsive Design</span>
+        <span class="badge">AI Tools</span>
+        <span class="badge">Freelancing</span>
+        <span class="badge">Creative Projects</span>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="card">
+      <h2>Projects</h2>
+      <div class="grid">
+        <article class="project">
+          <h3>Portfolio Website</h3>
+          <p>A modern, responsive portfolio hosted on GitHub Pages, with clean typography and accessible UI.</p>
+          <a class="btn" href="https://boarnux123.github.io/gerald-gunda-portfolio/" target="_blank" rel="noopener">View Live</a>
+        </article>
+        <article class="project">
+          <h3>AI-powered Demos</h3>
+          <p>Creative experiments using AI for productivity and freelancing workflows.</p>
+          <a class="btn ghost" href="#" aria-disabled="true">Preview soon</a>
+        </article>
+        <article class="project">
+          <h3>Freelance Gigs</h3>
+          <p>Custom digital projects delivered with efficiency and style.</p>
+          <a class="btn ghost" href="#" aria-disabled="true">Preview soon</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="card">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:geraldgunda8@gmail.com">geraldgunda8@gmail.com</a></p>
+      <div class="social">
+        <a class="btn small" href="https://github.com/boarnux123" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn small" href="https://fiverr.com/" target="_blank" rel="noopener">Fiverr</a>
+        <a class="btn small" href="https://facebook.com/" target="_blank" rel="noopener">Facebook</a>
+      </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="card">
+      <h2>Send Me a Message</h2>
+      <form action="https://formspree.io/f/your-form-id" method="POST" class="form">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="_replyto" required />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit" class="btn">Send</button>
+      </form>
+      <p class="hint">Tip: Palitan ang <code>your-form-id</code> sa <strong>Formspree</strong> form URL mo para gumana.</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2025 Gerald Gunda. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
